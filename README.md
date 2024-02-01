@@ -3,8 +3,8 @@
 # Introduction
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and “1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language”. In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland with the ISO ga code.
 
-IWSLT participants may obtain the Irish-English speech translation data from [here](https://github.com/shashwatup9k/iwslt2023_ga-en). The audio data consists from the common voice and Idlak. Please sign [this form](https://forms.gle/N6KvepNo6gs8BpF56) to get acess and/or password. This corpus consists of approx 11 hours of audio speech data and translations into English text.
-**NB !** the train dataset has duplicate segemnts due to gender and age variety. 
+IWSLT participants may obtain the Irish-English speech translation data from [here](https://github.com/shashwatup9k/iwslt2023_ga-en). The audio data consists from the [common voice](https://commonvoice.mozilla.org/en) and [Idlak](https://github.com/Idlak/Living-Audio-Dataset). Please sign [this form](https://forms.gle/N6KvepNo6gs8BpF56) to get acess and/or password. This corpus consists of approx 11 hours of audio speech data and translations into English text.
+**NB !** the train dataset has duplicate segemnts due to gender and age variety.
 
 ## Structure of the ` Shared Task data`:
 ```
@@ -27,13 +27,13 @@ ga-eng-iwslt2023/
 ├─ README.md
    
 ```
-**The data statistics are presented below:
+**The latest data statistics are presented below:
 -----------------------------------------------------
 ```
 │ Language	       |Total_audios | Total_translatedSentences │ 
 │Irish↔English (train) │  9595       │  9595            		│
 │Irish↔English (dev)   │  1120       │  1120           		│
-│Irish↔English (test)  │  368        │  368            		│
+│Irish↔English (test-2023)  │  347        │  347            		│
 ```
 
 # License
