@@ -23,6 +23,8 @@ ga-eng-iwslt2023/
 │     └─ wav/
 │  ├─ test-2023/
 │     └─ stamped.tsv
+│     └─ txt/
+│        └─ test.eng
 │     └─ wav
 ├─ LICENSE.md
 ├─ README.md
