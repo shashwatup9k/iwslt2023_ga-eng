@@ -3,9 +3,15 @@
 # Introduction
 Irish (also known as Gaeilge) has around 170,000 L1 speakers and “1.85 million (37%) people across the island (of Ireland) claim to be at least somewhat proficient with the language”. In the Republic of Ireland, it is the national and first official language. It is also one of the official languages of the European Union and a recognized minority language in Northern Ireland with the ISO ``ga`` code.
 
-IWSLT participants may obtain the Irish-English speech translation data from [here](https://github.com/shashwatup9k/iwslt2023_ga-en). The audio data consists of the [common voice](https://commonvoice.mozilla.org/en) and [Idlak](https://github.com/Idlak/Living-Audio-Dataset). Please sign [this form](https://forms.gle/N6KvepNo6gs8BpF56). This corpus consists of approx 11 hours of audio speech data and translations into English text.
+IWSLT participants may obtain the Irish-English speech translation data from [here](https://github.com/shashwatup9k/iwslt2023_ga-en). The audio data consists of the [common voice](https://commonvoice.mozilla.org/en) and [Idlak](https://github.com/Idlak/Living-Audio-Dataset). Please sign [this form](https://forms.gle/N6KvepNo6gs8BpF56). This corpus consists of approximately 11 hours of audio speech data and translations into English text.
 
-**NB!** The training dataset has duplicate segemnts due to gender and age variety.
+We point participants to additional Irish pre-trained models (the models are trained on a common voice dataset), parallel and monolingual corpora from here:
+
+- [wav2vec 2.0/wav2vec 2.0 (XLSR) ](https://github.com/facebookresearch/fairseq/tree/main/examples/wav2vec#pre-trained-models)
+- [Opus Irish-English parallel and monolingual dataset](https://opus.nlpl.eu/results/ga&en/corpus-result-table)
+- [Irish-English and English-Irish parallel COVID dataset](https://github.com/loresmt/loresmt-2021)
+
+**NB!** The training dataset has duplicate segments due to gender and age variety.  In addition, please note that the 2024 test dataset will be from the radio news domain. 
 
 ## Structure of the ` Shared Task data`:
 ```
