@@ -13,6 +13,8 @@ We point participants to additional Irish pre-trained models (the models are tra
 
 **NB!** The training dataset has duplicate segments due to gender and age variety.  In addition, please note that the 2024 test dataset will be from the radio news domain. 
 
+[April 2 Update:] THE TEST DATA FOR 2024 IS NOW AVAILABLE [HERE](https://github.com/shashwatup9k/iwslt2023_ga-eng/tree/main/test-2024)
+
 ## Structure of the ` Shared Task data`:
 ```
 ga-eng-iwslt2023/
@@ -32,6 +34,9 @@ ga-eng-iwslt2023/
 │     └─ txt/
 │        └─ test.eng
 │     └─ wav
+│  ├─ test-2024 (only audio files for the IWSLT 2024 evaluation campaign)/
+│     └─ stamped.tsv
+│     └─ wav/
 ├─ LICENSE.md
 ├─ README.md
    
@@ -43,13 +48,14 @@ ga-eng-iwslt2023/
 │Irish↔English (train) │  7478       │  7478            		│
 │Irish↔English (dev)   │  1120       │  1120           		│
 │Irish↔English (test-2023)  │  347        │  347            		│
+│Irish↔English (test-2024)  │  614        │  -            		│
 ```
 
 # License
 Please see the [LICENSE](https://github.com/shashwatup9k/iwslt2023_ga-en/blob/main/LICENSE) file.
 
 # Acknowledgments
-We would like to thank [Science Foundation Ireland (SFI)](https://www.sfi.ie/) [(grant number SFI/12/RC/2289_ P2 Insight _ 2)](https://www.insight-centre.org/) and [ADAPT Centre, DCU](https://www.adaptcentre.ie/).
+We would like to thank [Science Foundation Ireland (SFI)](https://www.sfi.ie/) [(grant number SFI/12/RC/2289_ P2 Insight _ 2)](https://www.insight-centre.org/) and [ADAPT Centre](https://www.adaptcentre.ie/). We would also like to thank RTÉ/TG4 for providing the Irish-English speech data. 
 ## Citation
 ## References
 <pre>
@@ -142,6 +148,6 @@ Includes text/audio: yes
 Shared Task Organisers 2023: Ojha, Atul Kr.; Judge, John; McCrae, John P.
 Shared Task Organisers 2024: Ojha, Atul Kr.; McCrae, John P.
 Contact: atulkumar.ojha@insight-centre.org, shashwatup9k@gmail.com
-Contributor/&copy;holder: Insight Centre for Data Analytics, Data Science Institue, University of Galway, Ireland and ADAPT Centre, Dublin City University, Ireland
+Contributor/&copy;holder: Insight Centre for Data Analytics, Data Science Institute, University of Galway, Ireland and ADAPT Centre, Ireland
 =======================================================================================================
 </pre>
