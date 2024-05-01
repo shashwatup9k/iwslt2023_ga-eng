@@ -41,7 +41,7 @@ ga-eng-iwslt2023/
 ├─ README.md
    
 ```
-**The latest data statistics are presented below:
+The latest data statistics are presented below:
 -----------------------------------------------------
 ```
 │ Language	       |Total_audios | Total_translatedSentences │ 
