@@ -114,7 +114,7 @@ We would like to thank [Science Foundation Ireland (SFI)](https://www.sfi.ie/) [
     address = "Bangkok, Thailand (in-person and online)",
     publisher = "Association for Computational Linguistics",
     url = "https://aclanthology.org/2024.iwslt-1.1",
-    pages = "1--11",
+    pages = "1--59",
     abstract = "This paper reports on the shared tasks organized by the 21st IWSLT Conference. The shared tasks address 7 scientific challenges in spoken language translation: simultaneous and offline translation, automatic subtitling and dubbing, speech-to-speech translation, dialect and low-resource speech translation, and Indic languages. The shared tasks attracted 17 teams whose submissions are documented in 27 system papers. The growing interest towards spoken language translation is also witnessed by the constantly increasing number of shared task organizers and contributors to the overview paper, almost evenly distributed across industry and academia.",
 }
 </pre>
